@@ -1,0 +1,128 @@
+body {
+  margin: 0px 10px;
+  background-color: #343a40;
+}
+.header {
+  background-color: #36454f;
+  color: #fff;
+  padding: 2px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.signin_form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+.signin_form input {
+  margin-right: 5px;
+  border-radius: 3px;
+  border: none;
+}
+.signin_form input:focus {
+  outline: none;
+}
+.signin_form input[type="submit"] {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  background-color: #36454f;
+  color: #fff;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+.signin_form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #36454f;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.main_left {
+  width: 58%;
+  height: 100%;
+  padding: 10px;
+}
+.left_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.left_content h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.left_content p {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.main_right {
+  width: 35%;
+  height: 100%;
+  padding: 10px;
+}
+
+.signup_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+  height: 100%;
+}
+
+.signup_area h3 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#signup_form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#signup_form input {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  height: 28px;
+  color: #fff;
+}
+#signup_form input:focus {
+  outline: none;
+}
+
+#signup_form input[type="submit"] {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  background-color: #36454f;
+  color: #fff;
+  padding: 2px 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
